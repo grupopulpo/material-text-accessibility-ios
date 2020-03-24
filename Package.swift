@@ -5,15 +5,10 @@ import PackageDescription
 let package = Package(
     name: "MDFTextAccessibility",
     products: [
-        .library(name: "MDFTextAccessibility", targets: ["MDFTextAccessibility"]),
+        .library(name: "MDFTextAccessibility", targets: ["MDFTextAccessibility"])
     ],
     targets: [
         .target(name: "MDFTextAccessibility", 
-                path: "Sources", 
-                publicHeadersPath:"src",
-                sources: [
-                    "src/*.{h,m}",
-                    "src/private/*.{h,m}",
-                ])
+                path: "src/")
     ]
 )
