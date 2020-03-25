@@ -8,7 +8,6 @@ let package = Package(
         .library(name: "MDFTextAccessibility", targets: ["MDFTextAccessibility"])
     ],
     targets: [
-        .target(name: "MDFTextAccessibility", 
-                path: "src/")
+        .target(name: "MDFTextAccessibility")
     ]
 )
